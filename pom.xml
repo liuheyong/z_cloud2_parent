@@ -38,10 +38,16 @@
 
     <!-- 多模块-->
     <modules>
+        <!--consul-->
         <module>../z_cloud2_consul</module>
+        <module>../z_cloud2_consul_consumer</module>
+        <!--eureka-->
+        <module>../z_cloud2_discover_consumer</module>
         <module>../z_cloud2_discover_client</module>
         <module>../z_cloud2_discover</module>
+        <!--commons-->
         <module>../z_cloud2_commons</module>
+
     </modules>
 
     <parent>
