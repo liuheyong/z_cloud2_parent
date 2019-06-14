@@ -15,6 +15,16 @@
 
     <!-- 多模块-->
     <modules>
+        <!--swagger-->
+        <module>z_cloud2_swagger_api</module>
+        <module>z_cloud2_swagger_a</module>
+        <module>z_cloud2_swagger_b</module>
+        <!--gateway-->
+        <module>z_cloud2_zuul</module>
+        <!--hystrix-->
+        <module>../z_cloud2_hystrix_turbine</module>
+        <module>../z_cloud2_hystrix_dashboard</module>
+        <module>../z_cloud2_discover_consumer_ribbon_hystrix</module>
         <!--config-->
         <module>../z_cloud2_config_server_cluster_client</module>
         <module>../z_cloud2_config_cluster_repo</module>

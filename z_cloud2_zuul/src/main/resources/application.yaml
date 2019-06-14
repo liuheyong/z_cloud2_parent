@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: zCloud2Zuul
+
+server:
+  port: 8154
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8120/eureka/

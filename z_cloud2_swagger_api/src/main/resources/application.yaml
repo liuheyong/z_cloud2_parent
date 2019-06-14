@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: zCloud2SwaggerApi
+
+server:
+  port: 8160
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8120/eureka/
