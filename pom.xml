@@ -21,6 +21,8 @@
         <module>z_cloud2_swagger_b</module>
         <!--gateway-->
         <module>z_cloud2_zuul</module>
+        <module>z_cloud2_gateway</module>
+        <module>z_cloud2_gateway2</module>
         <!--hystrix-->
         <module>../z_cloud2_hystrix_turbine</module>
         <module>../z_cloud2_hystrix_dashboard</module>

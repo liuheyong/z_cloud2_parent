@@ -10,11 +10,11 @@
         <relativePath>../pom.xml</relativePath>
     </parent>
 
-    <groupId>com.cloud2.swaggerapi</groupId>
-    <artifactId>z_cloud2_swagger_api</artifactId>
+    <groupId>com.cloud2.gateway</groupId>
+    <artifactId>z_cloud2_gateway2</artifactId>
     <version>1.0.0-SNAPSHOT</version>
-    <name>z_cloud2_swagger_api</name>
-    <description>project for Spring Cloud</description>
+    <name>z_cloud2_gateway2</name>
+    <description>z_cloud2_gateway2</description>
 
     <dependencies>
         <dependency>
