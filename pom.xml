@@ -42,6 +42,7 @@
         <module>../z_cloud2_discover_consumer_ribbon</module>
         <module>../z_cloud2_discover_client</module>
         <module>../z_cloud2_discover_consumer</module>
+        <module>../z_cloud2_discover2</module>
         <module>../z_cloud2_discover</module>
         <!--commons-->
         <module>../z_cloud2_commons</module>
