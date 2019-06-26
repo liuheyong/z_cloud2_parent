@@ -15,6 +15,12 @@
 
     <!-- 多模块-->
     <modules>
+        <!--stream-->
+        <module>z_cloud2_stream_zipkin</module>
+        <module>z_cloud2_stream_trace2</module>
+        <module>z_cloud2_stream_trace1</module>
+        <module>z_cloud2_stream_group</module>
+        <module>z_cloud2_stream</module>
         <!--swagger-->
         <module>z_cloud2_swagger_api</module>
         <module>z_cloud2_swagger_a</module>
