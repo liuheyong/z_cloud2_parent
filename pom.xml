@@ -15,8 +15,6 @@
 
     <!-- 多模块-->
     <modules>
-        <!--stream-->
-        <module>z_cloud2_stream_group</module>
         <!--swagger-->
         <module>z_cloud2_swagger_api</module>
         <module>z_cloud2_swagger_a</module>

@@ -27,8 +27,11 @@ public class ZCloud2SwaggerApiApplication {
         @Override
         public List<SwaggerResource> get() {
             List resources = new ArrayList<>();
-            resources.add(swaggerResource("service-a", "/swagger-service-a/v2/api-docs", "2.0"));
-            resources.add(swaggerResource("service-b", "/swagger-service-b/v2/api-docs", "2.0"));
+            /*zcloud2swaggera zcloud2swaggerb 必须是小写*/
+            /*因为zuul给微服务生成的匹配规则默认都是小写的*/
+            /* /zcloud2swaggera/**  /zcloud2swaggerb/** */
+            resources.add(swaggerResource("z_cloud2_swagger_a", "/zcloud2swaggera/v2/api-docs", "2.0"));
+            resources.add(swaggerResource("z_cloud2_swagger_b", "/zcloud2swaggerb/v2/api-docs", "2.0"));
             return resources;
         }
 
