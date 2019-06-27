@@ -34,6 +34,8 @@
         <module>../z_cloud2_hystrix_dashboard</module>
         <module>../z_cloud2_discover_consumer_ribbon_hystrix</module>
         <!--config-->
+        <module>z_cloud2_config_server_db</module>
+        <module>z_cloud2_config_client_db</module>
         <module>../z_cloud2_config_server_cluster_client</module>
         <module>../z_cloud2_config_cluster_repo</module>
         <module>../z_cloud2_config_server_cluster</module>
